@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Microverse Trial</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <h1>Survey Form</h1>
+    <div class="form">
+        <form class="survey-form">
+            <div>
+                <label for="name-label">Name</label><br>
+                <input id="name-label" type="text" placeholder="Enter your Name" required><br><br>
+                <label for="email-label">Email</label><br>
+                <input id="email-label" type="email" placeholder="Enter your Email" required><br><br>
+                <label for="number-label">Age (optional)</label><br>
+                <input id="number-label" type="age" placeholder="Enter your Age"><br><br>
+            </div>
+            <label for="dropdown">Which option best describes your current role</label><br>
+                <select name="select current role">
+                    <option>Select a role</option>
+                    <option>Student</option>
+                    <option>Full time learner</option>
+                    <option>Full time job</option>
+                    <option>Prefer not to say</option>
+                    <option>Other</option>
+                </select>
+            <div><br>
+                <h5>Would you recommend about this</h5>
+                <input id="recommend1" type="radio"><label for="recommend1">Definitely</label><br>
+                <input id="recommend2" type="radio"><label for="recommend2">Maybe</label><br>
+                <input id="recommend3" type="radio"><label for="recommend3">Not sure</label><br><br>
+            </div>
+            <div>
+                <label for="dropdownField">What is your favorite feature</label><br>
+                <select name="select an option">
+                <option>Select an option</option>
+				<option>Challenges</option>
+				<option>Projects</option>
+                <option>Community</option>
+                <option>Open source</option>
+                </select><br>
+            </div>
+            <div>
+                <h5>What would you like to see improved</h5>
+                <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+                Front-end </label><br>
+                <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+                <label for="vehicle2"> Back-end</label><br>
+                <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+                <label for="vehicle2">Open Source Community </label><br>
+                <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+                <label for="vehicle2">Challenges</label><br>
+                <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+                <label for="vehicle2">Videos </label><br>
+                <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+                <label for="vehicle2">Browsing</label><br>
+                <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+                <label for="vehicle2">Database </label><br>
+                <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+                <label for="vehicle3">Programming </label><br><br>
+            </div>
+            <label>Any Comments</label><br>
+            <textarea name="comment" id="comments">Leave your comment here...</textarea><br><br>
+            <div>
+                <button id="submit">Submit</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
